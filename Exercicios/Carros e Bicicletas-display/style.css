@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+.carro {
+    background-color: #111;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.bicicleta {
+    background-color: #111;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    margin: 0px;
+}
+
+p {
+    color: #b2b2b2;
+}
+
+a {
+    background-color: #ffaa00;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 7px;
+    display: inline-block;
+}
+span {
+    color: #febe01;
+}
