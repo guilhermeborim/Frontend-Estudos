@@ -1,0 +1,10 @@
+@import 'footer.css';
+@import 'seguros.css';
+@import 'depoimento.css';
+@import 'parceiros.css';
+@import 'tecnologia.css';
+@import '/css/bicicleta-lista.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap');
+@import 'introducao.css';
+@import url(global.css);
+@import 'header.css'

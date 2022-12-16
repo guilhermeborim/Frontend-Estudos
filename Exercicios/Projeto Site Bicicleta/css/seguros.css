@@ -1,0 +1,175 @@
+.seguros-bg {
+    background: #111111;
+}
+  
+  .seguros {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+  
+  .seguros h2 {
+    grid-column: 1/-1;
+    font-size: 64px;
+    font-family: 'Poppins';
+    color: white;
+    padding-left: 220px;
+}
+  
+.seguros-item-prata {
+    background-color: black;
+    padding: 32px 32px 32px 60px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 560px;
+    height: 396px;
+    margin-left: 220px;
+    margin-bottom: 104px;
+}
+  
+.seguros-item-prata h3 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-family: 'Poppins';
+    color: #9c9c9c;
+}
+  
+.seguros-item-prata span {
+    grid-column: 2;
+    display: block;
+    text-align: right;
+    color: white;
+    font-size: 36px;
+    font-family: 'Poppins';
+}
+
+.seguros-item-prata .mensal{
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: #9c9c9c;
+    margin-top: -8px;
+}
+  
+.seguros-item-prata ul {
+    grid-column: 1/-1;
+    margin-bottom: 32px;
+}
+  
+.seguros-item-prata li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: white;
+}
+  
+  
+.seguros-item-prata li + li {
+    margin-top: 20px;
+}
+  
+.seguros-item-prata li::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url("../../img/icones/lista.svg");
+    position: absolute;
+    left: -21px;
+}
+  
+.seguros-item a {
+    grid-column: 1/-1;
+}
+
+/* seguro ouro */
+
+.seguros-item-ouro {
+    background-color: black;
+    padding: 32px 32px 32px 60px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 560px;
+    height: 484px;
+    margin-bottom: 60px;
+}
+  
+.seguros-item-ouro h3 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-family: 'Poppins';
+    color: #ffbb00;
+}
+  
+.seguros-item-ouro span {
+    grid-column: 2;
+    display: block;
+    text-align: right;
+    color: white;
+}
+  
+.seguros-item-ouro ul {
+    grid-column: 1/-1;
+    margin-bottom: 32px;
+}
+  
+.seguros-item-ouro li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: white;
+}
+  
+  
+.seguros-item-ouro li + li {
+    margin-top: 20px;
+}
+  
+.seguros-item-ouro li::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url("../../img/icones/lista.svg");
+    position: absolute;
+    left: -21px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p5);
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
+}
+
+.botao.secundario {
+    background: #2e2e2e;
+    color: #cccccc;
+}
+
+.seguros-item-ouro .mensal {
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: #9c9c9c;
+    margin-top: -8px; 
+}
+
+.seguros-item-ouro span {
+    grid-column: 2;
+    display: block;
+    text-align: right;
+    color: white;
+    font-size: 36px;
+    font-family: 'Poppins';
+}
